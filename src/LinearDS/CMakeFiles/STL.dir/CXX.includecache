@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joshikanamani/Learnify/Cpp Basics/src/LinearDS/src/Pairs.cpp
+iostream
+-
+utility
+-
+string
+-
+

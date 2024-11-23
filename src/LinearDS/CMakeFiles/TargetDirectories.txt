@@ -1,0 +1,3 @@
+/home/joshikanamani/Learnify/Cpp Basics/src/LinearDS/CMakeFiles/rebuild_cache.dir
+/home/joshikanamani/Learnify/Cpp Basics/src/LinearDS/CMakeFiles/edit_cache.dir
+/home/joshikanamani/Learnify/Cpp Basics/src/LinearDS/CMakeFiles/STL.dir
