@@ -5,12 +5,14 @@
 using namespace std;
 
 int main(){
-    pair<int, char> p1 = {(1,'A'),(2,'B'),(3,'C')};
-    pair<int, char> p2 = make_pair(1,"apple");
+    pair<int, string> p1(1, "Alice");
+    // pair<int, char> p2 = make_pair(1,"apple");
 
+    cout<<"First-> "<<p1.first<<" second -> "<<p1.second<<endl;
 
-    for(auto i:p1) cout<<i<<" ";
-
+    p1.first = 2;
+    p1.second = "Bob";
+    cout<<"First-> "<<p1.first<<" second -> "<<p1.second<<endl;
 
     return 0;
 }

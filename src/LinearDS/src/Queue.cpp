@@ -9,8 +9,6 @@ arrive, like task scheduling or managing resources in a particular sequence.
 
 Basic Queue Operations
 
-    enqueue(): Adds an element to the back of the queue.
-    dequeue(): Removes an element from the front of the queue.
     front(): Returns the element at the front of the queue without removing it.
     back(): Returns the element at the back of the queue without removing it.
     empty(): Checks if the queue is empty.
@@ -25,7 +23,6 @@ int main() {
     cout << "Enqueuing elements into the queue:" << endl;
     for (int i = 1; i <= 5; i++) {
         q.push(i);
-        cout << "Enqueued " << i << endl;
     }
 
     cout << "\nQueue size after enqueueing: " << q.size() << endl;
@@ -53,6 +50,35 @@ int main() {
     } else {
         cout << "The queue still has " << q.size() << " elements." << endl;
     }
+    
+    // queue<int> q1=[67,89,55,43,21,45];// won't work
+
+    queue<int> q1;
+      for(int i=10;i<16;i++){
+        q1.push(i);
+    }
+
+
+    // q1.swap(q);
+    // Accessing and printing all elements in the queue
+    while (!q1.empty()) {
+        // Print the front element
+        std::cout << q1.front() << " ";
+        // Remove the front element after printing
+        q1.pop();
+    }
+    
+    q.swap(q1);
+
+        // Accessing and printing all elements in the queue
+    while (!q.empty()) {
+        // Print the front element
+        std::cout << q.front() << " ";
+        // Remove the front element after printing
+        q.pop();
+    }
+ 
+    cout<<endl;
 
     return 0;
 }

@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    std::vector<std::pair<int, std::string>> vec;
+    sector<pair<int, string>> vec;
     vec.emplace(vec.begin(), 1, "First Element");
     vec.emplace(vec.begin(), 2, "Second Element");
     vec.emplace(vec.begin(), 3, "Three Element");

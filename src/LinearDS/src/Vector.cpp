@@ -59,7 +59,7 @@ int main() {
 
        //Accessing Items
     for(int i=0;i<vec2.size();i++){
-        cout<<vec2.at(i)<<" ";
+        cout<<vec2[i]<<" ";
     }
     cout<<endl;
 

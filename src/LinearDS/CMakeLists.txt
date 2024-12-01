@@ -9,8 +9,13 @@ add_executable(STL
     # src/Vector.cpp
     # src/VectorEmbrace.cpp
     # src/VectorEmbraceBack.cpp
+    # src/VectorDuplicates.cpp
     # src/ForwardList.cpp
     # src/List.cpp
-    src/Pairs.cpp
+    # src/Pairs.cpp
+    # src/Tuples.cpp
+    # src/Queue.cpp
+    # src/Dequeue.cpp
+    src/PriorityQueue.cpp
   
   )

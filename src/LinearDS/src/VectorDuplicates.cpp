@@ -14,7 +14,7 @@ int main() {
                 cout<<"Duplicate Found"<<endl;
                 a.erase(a.begin()+j);
                 duplicateFound = true;
-                j--;
+                // j--;
                 // break;
             }
         }
